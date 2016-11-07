@@ -1,0 +1,574 @@
+/* Object classes ------------------------------------------------------------------------------------------------------------------------*/
+body {
+	background-color: #dcdcdc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #444444;
+	clear: both;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none 0;
+	border-top: 1px dashed #bebebe;
+	height: 1px;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+}
+
+table#basic {
+	width: 700px;
+}
+
+table#basic td {
+	padding: 5px;
+}
+
+table#advanced {
+	width: 700px;
+}
+
+table#advanced td {
+	padding: 5px;
+}
+
+table#result {
+	width: 840px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	background-color: #fff;
+	border-width: 1px;
+	border: thin;
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: #dddddd;
+	clear: both;
+}
+
+table#result td {
+	padding: 5px;
+	clear: both;
+}
+
+/* DIV objects ---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+#databaseList {
+	margin-left: -25px;
+}
+
+#formPanel {
+	width: 700px;
+	border: thin;
+	border-style: dotted;
+	border-color: #bebebe;
+	text-align: left;
+	padding-top: 10px;
+}
+
+#mainPanel {
+	width: 900px;
+	background-color: #fff;
+	border: thin;
+	border-style: solid;
+	border-color: #bebebe;
+}
+
+#logoPanel {
+	width: 840px;
+	margin-top: 20px;
+}
+
+#contentPanel {
+	margin-top: 20px;
+	width: 840px;
+	
+}
+#contentPanel2 {
+	margin-top: 20px;
+	width: 840px;
+	text-align: justify;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+
+#formContentPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+#loadingPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+#textPanel {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: justify;
+	
+}
+
+#clusteringPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+/* Font classes --------------------------------------------------------------------------------------------------------------------------*/
+.contentTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0F226E;
+}
+
+.formText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #0F226E;
+}
+
+.formTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #777777;
+	padding-left: 20px;
+}
+
+.summaryTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0F226E;
+}
+
+.footnote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #777777;
+}
+
+.logoTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.summaryTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #0F226E;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.50em;
+	color: #444444;
+}
+
+.textMediumBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.50em;
+	color: #444444;
+}
+
+.textTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #777777;
+}
+
+.disabled {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #cccccc;
+}
+
+.summaryTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #0F226E;
+}
+
+/* Object style --------------------------------------------------------------------------------------------------------------------------*/
+.formObject {
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	border-color: #C0C0C0;
+	margin-left: 4px;
+	background-color: #dcdcdc;
+	font-family: Arial;
+	font-size: 13px;
+	color: #000000;
+}
+
+.tableHeader {
+	background-color: #eeeeee;
+}
+
+
+.hover {
+	background-color: #f7f7f7;
+}
+
+
+.tableStyle {
+	margin: auto;
+	width: 700px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;	
+}
+
+.tableStyle td, th{
+	padding: 4px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;	
+	vertical-align: top;
+}
+<<<<<<< .mine
+
+
+
+
+
+/* MENU */
+#menu {  }
+#menu ul { list-style:none; background: rgba(255,138,30,1) }
+#menu ul li {  float:left; margin-bottom:20px;  padding:10px 0px 0x 10px; }
+
+/* :first-child pseudo selector with rounded top left corner */
+#menu ul li:first-child a { -moz-border-radius-topleft: 12px; -webkit-border-top-left-radius:12px; }
+
+/* :last-child pseudo selector with rounded top right corner */
+#menu ul li:last-child a { -moz-border-radius-topright: 12px; -webkit-border-top-right-radius:12px; }
+
+/* background color set to RGBA, with opacity on 0.3 and also using text-shadow */
+#menu ul li a { padding:15px; background: rgba(38, 56, 124,0.1); text-decoration: none; font: bold 14px Helvetica, Sans-Serif; letter-spacing: -1px; color: #402e16;
+	text-shadow: #eee 0px 0px 2px;  border: 1px solid #26387c;}
+	
+/* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey gradient on top */
+#menu ul li a:hover { -moz-box-shadow: 0 -5px 10px #777; -webkit-box-shadow: 0 -5px 10px #777;
+	background: -webkit-gradient(
+		linear, right bottom, left top, color-stop(0, rgb(237,227,112)), color-stop(0.72, rgb(255,173,10))) !important;
+	background: -moz-linear-gradient(
+		right bottom, rgb(237,227,112) 0%, rgb(255,173,10) 72%) !important;
+	background-color:rgb(255,173,10) !important;
+	-moz-opacity:.90; filter:alpha(opacity=90); opacity:.90; }
+
+/* another RGBA background, now with an opacity of 0.8 */
+#menu ul li a.active { background: rgba(255,138,30,0.8) !important; }
+
+
+
+.container {
+        width: 500px;
+        padding: 15px;
+        margin: 3px 0 20px 0;
+        border: 1px solid #ccc;
+        background: #fff;
+}
+
+/* circle */
+
+#navCircle {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #9FB1BC;
+}
+
+#navCircle li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+}
+
+#navCircle a:link, #navCircle a:visited {
+        float: left;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: bold;
+        padding: 0 12px 6px 12px;
+        text-decoration: none;
+        color: #708491;
+}
+
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+        padding-bottom: 6px;
+        color: #000;
+        background: url(circle.gif) no-repeat bottom center;
+}
+
+
+#header {
+        FONT-SIZE: 93%; BACKGROUND: url(bg.gif) #dae0d2 repeat-x 50% bottom; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: normal
+}
+#header UL {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; LIST-STYLE-TYPE: none
+}
+#header LI {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: url(left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#header A {
+        PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: url(right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #765; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#header A {
+        FLOAT: none
+}
+#header A span {
+      float:left;
+      display:block;
+      background:url("tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #header A span {float:none;}
+    /* End IE5-Mac hack */
+ #header a:hover span {
+      color:#FFF;
+      }
+    #header a:hover {
+      background-position:0% -42px;
+      }
+    #header a:hover span {
+      background-position:100% -42px;
+      }
+
+        #header #current a {
+                background-position:0% -42px;
+        }
+        #header #current a span {
+                background-position:100% -42px;
+        }
+
+
+
+  #tabsF {
+      float:left;
+      width:100%;
+      background:#efefef;
+      font-size:125%;
+      line-height:normal;
+          border-bottom:1px solid #666;
+      }
+    #tabsF ul {
+        margin:0;
+       padding:10px 10px 0 50px;
+        list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+    
+    
+      }
+    #tabsF a {
+      float:left;
+      background:url("tableftF.gif") repeat-y;;
+      margin:1;
+      padding:0px 10px 0px 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url("tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#FFF;
+      }
+    #tabsF a:hover {
+      background-position:0% -42px;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+      }
+
+        #tabsF #current a {
+                background-position:0% -42px;
+        }
+        #tabsF #current a span {
+                background-position:100% -42px;
+        }=======
+
+
+
+
+
+/* MENU */
+#menu {  }
+#menu ul { list-style:none; background: rgba(255,138,30,1) }
+#menu ul li {  float:left; margin-bottom:20px;  padding:10px 0px 0x 10px; }
+
+/* :first-child pseudo selector with rounded top left corner */
+#menu ul li:first-child a { -moz-border-radius-topleft: 12px; -webkit-border-top-left-radius:12px; }
+
+/* :last-child pseudo selector with rounded top right corner */
+#menu ul li:last-child a { -moz-border-radius-topright: 12px; -webkit-border-top-right-radius:12px; }
+
+/* background color set to RGBA, with opacity on 0.3 and also using text-shadow */
+#menu ul li a { padding:15px; background: rgba(38, 56, 124,0.1); text-decoration: none; font: bold 14px Helvetica, Sans-Serif; letter-spacing: -1px; color: #402e16;
+	text-shadow: #eee 0px 0px 2px;  border: 1px solid #26387c;}
+	
+/* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey gradient on top */
+#menu ul li a:hover { -moz-box-shadow: 0 -5px 10px #777; -webkit-box-shadow: 0 -5px 10px #777;
+	background: -webkit-gradient(
+		linear, right bottom, left top, color-stop(0, rgb(237,227,112)), color-stop(0.72, rgb(255,173,10))) !important;
+	background: -moz-linear-gradient(
+		right bottom, rgb(237,227,112) 0%, rgb(255,173,10) 72%) !important;
+	background-color:rgb(255,173,10) !important;
+	-moz-opacity:.90; filter:alpha(opacity=90); opacity:.90; }
+
+/* another RGBA background, now with an opacity of 0.8 */
+#menu ul li a.active { background: rgba(255,138,30,0.8) !important; }
+
+
+
+.container {
+        width: 500px;
+        padding: 15px;
+        margin: 3px 0 20px 0;
+        border: 1px solid #ccc;
+        background: #fff;
+}
+
+/* circle */
+
+#navCircle {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #9FB1BC;
+}
+
+#navCircle li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+}
+
+#navCircle a:link, #navCircle a:visited {
+        float: left;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: bold;
+        padding: 0 12px 6px 12px;
+        text-decoration: none;
+        color: #708491;
+}
+
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+        padding-bottom: 6px;
+        color: #000;
+        background: url(circle.gif) no-repeat bottom center;
+}
+
+
+#header {
+        FONT-SIZE: 93%; BACKGROUND: url(bg.gif) #dae0d2 repeat-x 50% bottom; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: normal
+}
+#header UL {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; LIST-STYLE-TYPE: none
+}
+#header LI {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: url(left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#header A {
+        PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: url(right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #765; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#header A {
+        FLOAT: none
+}
+#header A:hover {
+        COLOR: #333
+}
+#header #current {
+        BACKGROUND-IMAGE: url(left_on.gif)
+}
+#header #current A {
+        BACKGROUND-IMAGE: url(right_on.gif); PADDING-BOTTOM: 10px; COLOR: #333
+}
+
+
+
+  #tabsF {
+      float:left;
+      width:100%;
+      background:#efefef;
+      font-size:100%;
+      line-height:normal;
+          border-bottom:1px solid #666;
+      }
+    #tabsF ul {
+        margin:0;
+        padding:10px 10px 0 50px;
+        list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsF a {
+      float:left;
+      background:url("tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url("tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#FFF;
+      }
+    #tabsF a:hover {
+      background-position:0% -42px;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+      }
+
+        #tabsF #current a {
+                background-position:0% -42px;
+        }
+        #tabsF #current a span {
+                background-position:100% -42px;
+        }
+>>>>>>> .r1350

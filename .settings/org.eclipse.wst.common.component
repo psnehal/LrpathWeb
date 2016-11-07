@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="lrpathweb">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="ws-ncibi-client-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ws-ncibi-client/ws-ncibi-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ws-ncibi-common-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ws-ncibi-common/ws-ncibi-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ws-common-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ws-common/ws-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ws-client-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ws-client/ws-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ws-server-common-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ws-server-common/ws-server-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ncibi-commons-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ncibi-commons/ncibi-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ncibi-db-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ncibi-db/ncibi-db">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="lrpathweb"/>
+        <property name="java-output-path" value="/lrpathweb/target/classes"/>
+    </wb-module>
+</project-modules>

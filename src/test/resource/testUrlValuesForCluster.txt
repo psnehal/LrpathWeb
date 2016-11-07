@@ -1,0 +1,6 @@
+data1 http://lrpath-t.ncibi.org/result/download767039360.txt
+data2 http://lrpath-t.ncibi.org/result/download525053611.txt
+data3 http://lrpath-t.ncibi.org/result/download801243392.txt
+data4 http://lrpath-t.ncibi.org/result/download18016986.txt
+data5 http://lrpath-t.ncibi.org/result/download413948627.txt
+data6 http://lrpath-t.ncibi.org/result/download234899029.txt

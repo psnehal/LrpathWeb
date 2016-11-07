@@ -1,0 +1,259 @@
+/* Object classes ------------------------------------------------------------------------------------------------------------------------*/
+body {
+	background-color: #dcdcdc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #444444;
+	clear: both;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none 0;
+	border-top: 1px dashed #bebebe;
+	height: 1px;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+}
+
+table#basic {
+	width: 700px;
+}
+
+table#basic td {
+	padding: 5px;
+}
+
+table#advanced {
+	width: 700px;
+}
+
+table#advanced td {
+	padding: 5px;
+}
+
+table#result {
+	width: 840px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	background-color: #fff;
+	border-width: 1px;
+	border: thin;
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: #dddddd;
+	clear: both;
+}
+
+table#result td {
+	padding: 5px;
+	clear: both;
+}
+
+/* DIV objects ---------------------------------------------------------------------------------------------------------------------------*/
+#databaseList {
+	margin-left: -25px;
+}
+
+#formPanel {
+	width: 700px;
+	border: thin;
+	border-style: dotted;
+	border-color: #bebebe;
+	text-align: left;
+	padding-top: 10px;
+}
+
+#mainPanel {
+	width: 900px;
+	background-color: #fff;
+	border: thin;
+	border-style: solid;
+	border-color: #bebebe;
+}
+
+#logoPanel {
+	width: 840px;
+	margin-top: 20px;
+}
+
+#contentPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+#contentPanel2 {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+	border: 2px solid #a1a1a1;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+#formContentPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+#loadingPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+#textPanel {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#clusteringPanel {
+	margin-top: 20px;
+	width: 840px;
+	text-align: left;
+}
+
+/* Font classes --------------------------------------------------------------------------------------------------------------------------*/
+.contentTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #444444;
+}
+
+.formText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444444;
+}
+
+.formTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #777777;
+	padding-left: 20px;
+}
+
+.footnote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #777777;
+	display: block;
+	margin-bottom: 2px;
+	
+	
+}
+.footnote1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #777777;
+	display: block;
+	margin-bottom: 2px;
+	margin-left:2.00em;
+	
+}
+
+.logoTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.50em;
+	color: #444444;
+}
+
+.textMediumBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.50em;
+	color: #444444;
+}
+sup {
+    vertical-align: super;
+    font-size: 13px;
+    color:red;
+    font-weight: bold;
+} 
+sup2 {
+    vertical-align: super;
+    font-size: 11px;
+  
+    font-weight: bold;
+} 
+
+.textTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #777777;
+}
+
+.disabled {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #cccccc;
+}
+
+/* Object style --------------------------------------------------------------------------------------------------------------------------*/
+.formObject {
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	border-color: #C0C0C0;
+	margin-left: 4px;
+	background-color: #dcdcdc;
+	font-family: Arial;
+	font-size: 13px;
+	color: #000000;
+}
+
+.tableHeader {
+	background-color: #eeeeee;
+}
+
+
+.hover {
+	background-color: #f7f7f7;
+}
+
+
+.tableStyle {
+	margin: auto;
+	width: 700px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;	
+}
+
+.tableStyle td, th{
+	padding: 4px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;	
+	vertical-align: top;
+}
+
+ul.methods {
+    padding: 0;
+    list-style-type: none;
+    display:inline-block;
+}
+ul.methods li{
+display: inline-block;
+}
